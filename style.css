@@ -1,0 +1,499 @@
+body{
+  margin: 0px;
+  overflow-x: hidden;
+   font-family: "Source Sans Pro", sans-serif;
+}
+.container{
+  margin-left: 37vw;
+  margin-top: 13vh;
+  width: 25.958vw;
+}
+.squares{
+  height : 5.3361vh;
+  width : 2.6041vw;
+  opacity: 0.5;
+  display : inline-flex;
+  margin: -0.134vw;
+  margin-top: -0.308vw;
+  margin-bottom: -0.308vw;
+
+}
+.hello{
+  display: none;
+}
+.motto{
+    margin: 30vh auto;
+    font-size: 7em;
+    position: absolute;
+    top: 10vh;
+    left: 20vw;
+}
+.nav-item button{
+    color: #ff4c68;
+    font-size: 1.2em;
+    font-weight: 500;
+    background-color: #fff;
+}
+
+.login-button:hover{
+    background-color: #ff4c68;
+    color: white;
+}
+
+.navbarhomepage{
+    height: 100vh;
+    background: url("https://wallpx.com/image/2021/03/cat-friends-dog-cute-relationship-lying-down.jpg") no-repeat  ;
+    background-size: 100%;
+    opacity: 0.9;
+    color: #ff4c68;
+}
+.navbar-toggler-icon{
+    color: #ff4c68;
+}
+.navbar-brand{
+    /* font-family: "Ubuntu"; */
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ff4c68;
+}
+.navbar-brand:hover{
+    color: #fff;
+}
+
+.func{
+    text-align: center;
+    padding: 5%;
+    margin: 4rem 0;
+}
+.location{
+  position: relative;
+  bottom : 50px;
+}
+
+.functext{
+    font-size: 1.5rem;
+}
+.icon{
+    color: #ef8172;
+    margin: 1rem;
+}
+.carousel-item{
+  background-color: #ef8172;
+}
+#features{
+    background-color: white;
+    position: relative;
+}
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+    font-size: 2em;
+}
+.testimonial-img{
+    padding: 1rem 3rem 7rem;
+}
+.testimonial-text{
+    font-size: 1.2em;
+    padding-bottom: 3rem;
+    line-height: 1.5;
+    padding: 8% 15% 3%;
+}
+
+.carousel-control-prev-icon{
+    position: relative;
+    left: -4vw;
+}
+.carousel-control-next-icon{
+    position: relative;
+    right: -4vw;
+}
+/* useless css part 2 */
+
+.card-con{
+    padding: 3% 2%;
+    display: relative;
+    margin-top: 2vh;
+    transition-duration: 2s;
+}
+.card-con:hover
+{
+  transform : scale(1.2);
+}
+
+.card{
+    border-radius: 4%;
+    margin: 0 auto;
+    box-shadow: 11px 8px 52px #f0607a;
+}
+
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+#pricing h2{
+    font-size: 3rem;
+    color: #ff4c68;
+    font-weight: 800;
+}
+
+#pricing p{
+    color: #ff4c68;
+    font-weight: 600;
+}
+
+.card-img-top{
+    height: 275px;
+    width: 319px;
+    text-align: center;
+}
+
+#cta{
+    text-align: center;
+    padding: 5% 15% 7%;
+    background-color: #f0607a;
+    color: #fff;
+
+}
+
+.above-foot-h3{
+    font-size: 3.5rem;
+    padding-bottom: 2rem;
+}
+
+#footer{
+    text-align: center;
+    padding: 5% 15% 1% 15%;
+    line-height: 2.5;
+}
+.i-foot{
+    padding: 10px;
+}
+
+.a-footer{
+    color: #ff4c68;
+}
+.a-footer:hover{
+    color: black;
+}
+
+.signupinnerdiv{
+    width: 30vw;
+    margin: 0 auto 0;
+    padding: 1.5vw;
+    border-radius: 4%;
+    background-color: white;
+}
+.signupform{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    opacity: 0.82;
+}
+.signupdiv{
+    width: 100vw;
+    background-image: url("https://images.wallpaperscraft.com/image/cat_tree_spring_93133_1920x1080.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.submit-form{
+    border: #ff4c68 1px solid;
+    box-shadow: 11px 8px 51px #f0607a;
+}
+
+.submit-form:hover{
+    color: white;
+    background-color: #ff4c68;
+}
+
+.btn-avatar{
+    color: white;
+    background-color: #ff4c68;
+}
+.btn-avatar:hover{
+    border: #ff4c68 1px solid;
+    color: #ff4c68;
+}
+
+.signupinnerdiv i{
+    position: relative;
+    left: 12vw;
+    color: #ff4c68;
+
+}
+.form-title{
+    color: #ff4c68;
+    text-align: center;
+    font-weight: 700;
+    padding: 1vh;
+}
+.or{
+    text-align: center;
+    margin-bottom: 1vh;
+    color: #ff4c68;
+}
+/* trial for carousel */
+.hell{
+  position: absolute;
+  width: 100%;
+  top : 100px;
+}
+.light{
+  opacity: 0.4;
+}
+.container2{
+  width : 720px;
+}
+.photoOption{
+height: 250px;
+width : 250px;
+}
+.c2{
+  margin-left: 595px;
+   box-shadow: 11px 20px 90px #f0607a;
+   width: 720px;
+    border-radius: 15px;
+}
+.logindiv{
+    height: 100vh;
+}
+.loading-brand{
+    /* font-family: "Ubuntu"; */
+    font-size: 4rem;
+    font-weight: bold;
+    color: #ff4c68;
+    position: relative;
+    top: 9vh;
+}
+.loading-message{
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ff4c68;
+  position: relative;
+  top : 76vh;
+}
+.lDiv{
+  text-align: center;
+}
+.search-div{
+    margin: 1vh;
+    margin-right: 5.1vw ;
+    width: max-content;
+}
+.search-div input{
+    margin-right: 1vh;
+    border: #ff4c68 1px solid;
+}
+
+.search-button{
+    padding: 0 2vh;
+    border: 1px solid #ff4c68;
+}
+
+.main-search{
+    padding: 25px;
+}
+.mainpagediv{
+    background-image: url("https://images.pexels.com/photos/4587954/pexels-photo-4587954.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") ;
+}
+
+.light{
+    opacity: 0.6;
+}
+.dark{
+    opacity: 100;
+}
+.searchresult-div{
+    position: absolute;
+    top : 15vh;
+    left: 35.7vw;
+}
+.hidden{
+    display: none;
+}
+.show{
+    display: block;
+    opacity: 1;
+}
+
+/* useless css part 4 */
+
+.card-search-text{
+    display: inline-block;
+    position: relative;
+    top: 52vh;
+    width: fit-content;
+}
+.card-search-text .card-text {
+    margin: 0;
+    font-size: 1.5rem;
+}
+.card-search-text .card-title{
+    font-size: 2rem;
+}
+.card-search-buttons{
+    display: inline-block;
+    position: absolute;
+    left: 343px;
+    top: 592px;
+}
+.card-search-buttons a{
+    margin: 4px;
+}
+
+.white-pink-button{
+    background-color: #fff;
+    color: #ff4c68;
+}
+.white-pink-button:hover{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.pink-white-button:hover{
+    background-color: #ff4c68;
+    color: #fff;
+    border: 0px;
+}
+.pink-white-button{
+    background-color: transparent;
+    color: #fff;
+    border: #fff 1px solid;
+}
+.card-search-img{
+    height: 650px;
+    width: 550px;
+    border-radius: 4%;
+}
+#nouser{
+    margin: 20px;
+
+}
+.alert{
+    background-color: #fff;
+    color: #ff4c68;
+}
+.message-div{
+  position: absolute;
+  left : 35vw;
+  z-index: 1111;
+}
+.form-group2{
+  padding-left: 27.7vw;
+  padding-bottom: 20px;
+    color: #ff4c68;
+}
+.signupinnerdiv2{
+    width: 30vw;
+    margin: 0 auto 0;
+    padding: 1.3vw;
+    padding-bottom: 1vw;
+    padding-top: 0.2vw;
+    border-radius: 4%;
+    background-color: white;
+}
+.main-container {
+    display: flex;
+    justify-content: center;
+  }
+  .col-mid {
+    order: 2;
+    flex: 1.5;
+    height: 100vh;
+  }
+  .col-right {
+    order: 3;
+    flex: 1;
+  }
+  .col-left {
+    display: none;
+    order: 1;
+    flex: 1;
+  }
+  .button-array {
+    display: flex;
+  }
+  .left-img {
+    width: 100%;
+  }
+  .card-img-top {
+    margin-top: 10px;
+    border: 0;
+  }
+  ul {
+    list-style-type: none;
+  }
+  .col-right h2 {
+    color: white;
+    text-align: center;
+  }
+  .col-left h2 {
+    color: white;
+    text-align: center;
+  }
+  #side-img {
+    width: 4rem;
+    height: 4rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+  /* .right-waiting {
+    position: relative;
+  } */
+  /* .right-bio {
+    flex-direction: row;
+  }
+  .right-bio img {
+    flex: 1;
+  }
+  .right-bio div {
+    flex: 1;
+  } */
+  .right-button-array {
+    display: flex;
+  }
+  .right-button-array button {
+    flex: 1;
+  }
+  @media screen and (min-width: 830px) {
+    .card-img-top {
+      height: 26rem;
+      width: 26rem;
+      margin: auto;
+      margin-top: 10px;
+      border: 0;
+    }
+    .col-left {
+      display: inline;
+    }
+    .notif {
+      display: none;
+    }
+    #side-img {
+      width: 4rem;
+      height: 4rem;
+      margin: 0;
+    }
+  }
+
+
+  /* henlo 497 */
+
+.user-profile-text{
+    padding-left: 10px;
+}
+.main-container{
+    padding: 0 10px;
+}
+.col-mid {
+    padding: 3% 0;
+
+}
+.col-mid .card-img-top {
+    width: 27vw;
+    height: 50vh;
+}
+
+/* henlo 497 end */
